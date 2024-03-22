@@ -1,0 +1,98 @@
+/* Reset de Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('stardewbackground.png'); /*foto de fundo*/
+    background-size: cover;
+    color: #333; /* Cor do texto */
+}
+
+/* Estilo para o Header */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #DDA059;/* Cor do título */
+}
+
+/* Estilo para o Menu de Navegação */
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #DDA059; /* Cor dos links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #B52121; /* Cor do link ao passar o mouse */
+}
+
+/* Estilo para as seções */
+section {
+    background-color: rgba(255, 255, 255, 0.8); /* Cor de fundo com transparência */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px; /* Largura máxima das seções */
+}
+
+section h2 {
+    color: #DDA059; /* Cor do título */
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #666; /* Cor do texto */
+}
+
+section ul {
+    margin-top: 10px;
+}
+
+section ul li {
+    margin-bottom: 5px;
+}
+
+section ul li a {
+    color: #333; /* Cor do texto do link */
+    text-decoration: none;
+}
+
+section ul li a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
+
+/* Estilo para o Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px 0;
+    background-color: rgba(255, 255, 255, 0.8); /* Cor de fundo com transparência */
+    border-top: 1px solid #DDA059; /* Linha superior */
+}
+
+footer p {
+    font-size: 0.8em;
+    color: #666; /* Cor do texto */
+}

@@ -1,0 +1,108 @@
+/* Reset de Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('stardewbackground.png'); /*foto de fundo*/
+    background-size: cover;
+    color: #333; /* Cor do texto */
+}
+
+/* Estilo para o Header */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #DDA059;/* Cor do título */
+}
+
+/* Estilo para o Hero Section */
+.hero {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hero img {
+    width: 80%; /* Largura da imagem */
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Sombra */
+}
+
+/* Estilo para a Introdução */
+.introducao {
+    background-color: rgba(255, 255, 255, 0.8); /* Cor de fundo com transparência */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.introducao p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #666; /* Cor do texto */
+}
+
+/* Estilo para os Destaques */
+.destaques {
+    background-color: rgba(255, 255, 255, 0.8); /* Cor de fundo com transparência */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.destaques h2 {
+    color: #DDA059; /* Cor do título */
+    margin-top: 20px;
+}
+
+.destaques p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    color: #666; /* Cor do texto */
+}
+
+/* Estilo para o Menu de Navegação */
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #DDA059; /* Cor dos links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #B52121; /* Cor do link ao passar o mouse */
+}
+
+/* Estilo para as imagens */
+img {
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Sombra */
+    display: block; /* Para centralizar a imagem */
+    margin: 0 auto; /* Para centralizar a imagem */
+}
+
+/* Estilo para o conteúdo com fundo transparente */
+main {
+    background-color: rgba(255, 255, 255, 0.6); /* Cor de fundo com transparência */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
